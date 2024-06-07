@@ -17,7 +17,7 @@ import (
 	"github.com/agilestacks/hub/cmd/hub/util"
 )
 
-const extensionsGitRemote = "https://github.com/agilestacks/hub-extensions.git"
+const extensionsGitRemote = "https://github.com/arkadijs/hub-extensions.git"
 
 func defaultExtensionsDir() string {
 	return filepath.Join(os.Getenv("HOME"), hubDir)
