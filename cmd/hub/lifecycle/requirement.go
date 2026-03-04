@@ -165,7 +165,7 @@ var bins = map[string][]string{
 	"gcs":        {"gsutil", "version"},
 	"kubectl":    {"kubectl", "version", "--client"},
 	"kubernetes": {"kubectl", "version", "--client"},
-	"helm":       {"helm", "version", "--client"},
+	"helm":       {"helm", "version"},
 	"etcd":       {"etcdctl", "--version"},
 }
 
